@@ -24,10 +24,10 @@ Think about how a computer knows the user wants to submit the form? Pause, stop 
 ### Let's make `submit()` work
 *  Use the `submit()` function to figure out if the form was submitted. An example can be found [here](https://api.jquery.com/submit/).
 * Did you notice this line in the example: `event.preventDefault();`? Refresh yourself on what that line does, do we need it here?
-* If you use `console.log()` to print "the form was submitting", does it work?
+* If you use `console.log()` to print "the form was submitted", does it work?
 * Once the form is submitted use `.val()` to save the user's `name` and `message` in variables.
 * `console.log` your variable to make sure you are saving them correctly.
-* Finally, `append()` some HTML with the `name` and `message` values you just saved. 
+* Finally, `append()` the HTML with the `name` and `message` values you just saved. 
 
 
 #### Fancy things up a bit:
