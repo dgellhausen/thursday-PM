@@ -9,7 +9,7 @@ $(document).ready(function(){
     var comment = $("#input-message").val();
     console.log(name)
     console.log(comment)
-    $("ul").append("<li>name</li>");
-    $("ul").append("<li>comment</li>");
+    $("ul").append("<li class='message-box'><span class='name'> "+ name + "</span> "+ comment +" </li>");
+    document.getElementById("message-form").reset();
   })
 });
