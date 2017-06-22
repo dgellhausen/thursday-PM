@@ -18,7 +18,7 @@ $(document).ready(function(){
     console.log(`${date} ${time}`);
     //
     if (name != "" && message != ""){
-      var newPost = $("ul").append(`<li class='message-box'><span class='name'> ${postName} </span> ${message} (submitted at ${date})</li>`);
+      var newPost = $("ul").append(`<li class='message-box'><span class='name'> ${postName} </span> ${message} (posted at ${date})</li>`);
       $(".center").val("");
     }
   });
