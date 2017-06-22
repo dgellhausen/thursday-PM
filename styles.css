@@ -1,6 +1,7 @@
 /* Your CSS goes here */
 body {
   font-family: 'Raleway', sans-serif;
+  
 }
 h1 {
   text-align: center;
@@ -8,6 +9,14 @@ h1 {
 }
 h2 {
   text-align: center;
+}
+.parallax {
+  background-image: url(https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/Y5E2OAOOWF.jpg);
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .trans-box {
   border: 1px solid #bababa;
