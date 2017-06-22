@@ -8,12 +8,13 @@ $(document).ready(function(){
     console.log(name);
     var message = $("#input-message").val();
     console.log(message);
-    function ht(){
-      var newnlItem = document.createElement("li");
-      var nlValue = document.createTextNode(i); 
-       newnlItem.appendChild(nlValue);
-      nl.appendChild(newnlItem);
-    }
+    var i = name + ": " + message
+    console.log(i)
+    // var newnlItem = document.createElement("li");
+    // var nlValue = document.createTextNode(i); 
+    // newnlItem.appendChild(nlValue);
+    // nl.appendChild(newnlItem);
+    $( "ul" ).append(`<li class='message-box'><span class='name'>${name}: </span>${message}  </li>`);
   })
 
 
