@@ -11,13 +11,12 @@ h2 {
 .trans-box {
   border: 1px solid #bababa;
   border-radius: 5px;
-  background-color: rgba(208, 221, 237, .3)
+  background-color: rgba(37, 199, 38, .3)
 }
 #message-board {
   width: 60%;
   display: inline-block;
-  padding-right: 2%;
-
+  padding-right: 2
 }
 .message-box {
   list-style-type: none;
@@ -27,6 +26,28 @@ h2 {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, .8);
 }
+
+.log-box {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid #bababa;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, .8);
+}
+
+#name-board {
+  padding-bottom: 5%;
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  padding-right: 5px;
+  margin: 5px;
+  margin-top: 5%;
+  margin-left: 63.35%;
+}
+
 .name {
   font-weight: bold;
 }
@@ -41,6 +62,10 @@ h2 {
   display: block;
   margin: 0 auto;
   width: 80%;
+}
+
+#name-board .message-box {
+  margin-right: 9%;
 }
 
 /*#container {
